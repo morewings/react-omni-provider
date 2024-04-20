@@ -4,6 +4,8 @@
     "**/*.stories.tsx",
     "**/*.stories.ts",
     "*.config.ts",
+    "*.config.js",
+    "release.config.cjs",
     "src",
     ".eslintrc.cjs",
     "templates/**/*.ts",
