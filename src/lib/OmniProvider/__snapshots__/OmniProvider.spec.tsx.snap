@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lib > OmniProvider respects left to right order of providers given 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="foo"
+    style="padding: 36px;"
+  >
+    <div
+      data-testid="bar"
+      style="padding: 36px;"
+    >
+      <div
+        data-testid="bazz"
+        style="padding: 36px;"
+      >
+        foo
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

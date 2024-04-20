@@ -1,1 +1,1 @@
-export {Counter} from './CounterDemo';
+export {OmniProvider, withOmniProvider} from './OmniProvider';
