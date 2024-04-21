@@ -19,7 +19,7 @@ npm i react-omni-provider
 
 ## Use
 
-Provider component is a very popular React development pattern. Provider allows to create global state for your application. The problem is that today there are plenty of lib using such approach. So after some time your root file will probably look like this. Which sadly reminds infamous callback hell.
+Provider component is a very popular React development pattern. Provider allows to create global state for your application. The problem is that today plenty of libraries are using such approach. So after some time your root file will probably look like this. Which sadly reminds infamous callback hell.
 
 ### Before
 
