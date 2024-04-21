@@ -11,4 +11,13 @@ export default {
     },
     modulePathIgnorePatterns: ['<rootDir>/templates/'],
     setupFilesAfterEnv: ['<rootDir>/src/setupTests.ts'],
+    coverageReporters: [
+        [
+            'lcov',
+            {
+                projectRoot: '.',
+            },
+        ],
+    ],
+    collectCoverageFrom: ['src/lib/**/*.ts', 'src/lib/**/*.tsx', '!**/node_modules/**'],
 };

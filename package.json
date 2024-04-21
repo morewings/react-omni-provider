@@ -32,6 +32,7 @@
     "fix:code": "run-s 'lint:code --fix'",
     "lint:types": "tsc --pretty --noEmit",
     "test": "jest",
+    "coverage": "run-s 'test --coverage'",
     "preview": "vite preview",
     "prepare": "is-ci || husky",
     "lint-staged": "lint-staged",
