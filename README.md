@@ -7,7 +7,7 @@
 
 # React Omni Provider
 
-[![React Omni Provider](./design/picture.jpg)](#)
+<img src="./design/picture.jpg" alt="React Omni Provider">
 
 **React Omni Provider** is an utility component which allows to merge multiple Providers (wrapper components that create context or another global state).
 
