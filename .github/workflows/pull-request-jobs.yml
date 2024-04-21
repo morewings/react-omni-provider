@@ -54,3 +54,4 @@ jobs:
           pnpm run lint:code --quiet
           pnpm run test --silent
           pnpm run build
+          pnpm run semantic-release --dry-run
