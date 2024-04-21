@@ -87,6 +87,7 @@ export const App: FC<Props> = ({children}) => {
 There is also Higher Order component available with same functionality.
 
 ```tsx
+import type {ComponentProps} from 'react';
 import { withOmniProvider } from 'react-omni-provider';
 import { ProviderA } from 'ProviderA';
 import { ProviderB } from 'ProviderB';
@@ -96,7 +97,7 @@ const providerConfig = [
         // you can add just provider component
         ProviderA,
         // or attach props to it
-        [ProviderB, {prop: 'value'}],
+        [ProviderB, {prop: 'value'} as ComponentProps<typeof ProviderB>],
         ProviderC
 ]
 
