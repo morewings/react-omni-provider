@@ -9,7 +9,7 @@
 
 [![React Omni Provider](./design/picture.jpg)](#)
 
-**React Omni Provider** is an utility component which allows to merge multiple Providers (wrapper components which create context or another global state).
+**React Omni Provider** is an utility component which allows to merge multiple Providers (wrapper components that create context or another global state).
 
 ## Install
 
@@ -18,8 +18,7 @@ npm i react-omni-provider
 ```
 
 ## Use
-
-Provider component is a very popular React development pattern. Provider allows to create global state for your application. The problem is that today plenty of libraries are using such approach. So after some time your root file will probably look like this. Which sadly reminds infamous callback hell.
+Provider component is a very popular React development pattern. Provider allows to create global state for your application. The problem is that today, plenty of libraries are using such approach. So after some time, your root file will probably look like the one below. Which sadly reminds infamous callback hell.
 
 ### Before
 
@@ -56,7 +55,7 @@ export const App: FC<Props> = ({children}) => {
 
 ### After
 
-React Omni Provider allows to use just one Provider component instead. You can provide a list of used providers as an array. Providers are applied from left to right. So the first item in list becomes the first wrapper.
+React Omni Provider allows you to use just one Provider component instead. You can provide a list of used providers as an array. Providers are applied from left to right. So the first item in the list becomes the first wrapper.
 
 ```tsx
 import { OmniProvider } from 'react-omni-provider';
@@ -82,9 +81,9 @@ export const App: FC<Props> = ({children}) => {
 };
 ```
 
-## Higher Order Component
+## Higher-order Component
 
-There is also Higher Order component available with same functionality.
+There is also a higher-order component available with the same functionality.
 
 ```tsx
 import type {ComponentProps} from 'react';
