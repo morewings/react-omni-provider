@@ -48,7 +48,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "19.2.2",
+    "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
     "@semantic-release/commit-analyzer": "^12.0.0",
     "@semantic-release/git": "^10.0.1",
@@ -67,7 +67,7 @@
     "@yelo/rollup-node-external": "^1.0.1",
     "alias-hq": "6.2.3",
     "commitizen": "4.3.0",
-    "commitlint": "19.2.2",
+    "commitlint": "19.3.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
