@@ -22,7 +22,7 @@ export default {
     collectCoverageFrom: [
         'src/lib/**/*.ts', 
         'src/lib/**/*.tsx',
-        'src/lib/index.ts',
+        'src/lib/**/index.ts',
         '!**/node_modules/**',
     ],
 };
