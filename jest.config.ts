@@ -19,5 +19,10 @@ export default {
             },
         ],
     ],
-    collectCoverageFrom: ['src/lib/**/*.ts', 'src/lib/**/*.tsx', '!**/node_modules/**'],
+    collectCoverageFrom: [
+        'src/lib/**/*.ts', 
+        'src/lib/**/*.tsx',
+        'src/lib/index.ts',
+        '!**/node_modules/**',
+    ],
 };
