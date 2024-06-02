@@ -2,7 +2,7 @@ import {render} from '@testing-library/react';
 import type {ComponentProps} from 'react';
 
 import {OmniProvider} from './OmniProvider.tsx';
-import {MockProvider} from './MockProvider.tsx';
+import {MockProvider, providers} from './MockProvider.tsx';
 
 describe('lib > OmniProvider', () => {
     it('renders children', () => {
@@ -22,16 +22,7 @@ describe('lib > OmniProvider', () => {
     });
 
     it('respects left to right order of providers given', () => {
-        const {asFragment} = render(
-            <OmniProvider
-                providerConfig={[
-                    [MockProvider, {testId: 'foo'} as ComponentProps<typeof MockProvider>],
-                    [MockProvider, {testId: 'bar'} as ComponentProps<typeof MockProvider>],
-                    [MockProvider, {testId: 'bazz'} as ComponentProps<typeof MockProvider>],
-                ]}>
-                foo
-            </OmniProvider>
-        );
+        const {asFragment} = render(<OmniProvider providerConfig={providers}>foo</OmniProvider>);
         expect(asFragment()).toMatchSnapshot();
     });
 });
