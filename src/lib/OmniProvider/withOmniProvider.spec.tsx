@@ -1,7 +1,8 @@
 import type {ComponentProps, FC} from 'react';
 import {render} from '@testing-library/react';
 
-import {MockProvider, providers} from './MockProvider.tsx';
+import {MockProvider} from './MockProvider.tsx';
+import {mockProviders} from './MockProviders.tsx';
 import {withOmniProvider} from './withOmniProvider.tsx';
 
 const MockComponent: FC = () => {
@@ -25,7 +26,7 @@ describe('lib > withOmniProvider', () => {
     });
 
     it('respects left to right order of providers given', () => {
-        const Component = withOmniProvider(providers)(MockComponent);
+        const Component = withOmniProvider(mockProviders)(MockComponent);
         const {asFragment} = render(<Component />);
         expect(asFragment()).toMatchSnapshot();
     });
