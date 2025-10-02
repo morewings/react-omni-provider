@@ -3,8 +3,7 @@
 [![npm version](https://badge.fury.io/js/react-omni-provider.svg)](https://www.npmjs.com/package/react-omni-provider)
 [![zero dependencies](https://img.shields.io/badge/zero-dependencies-teal)](https://github.com/morewings/css-vars-hook)
 [![npm bundle size](https://deno.bundlejs.com/badge?q=react-omni-provider@latest&config={%22esbuild%22:{%22external%22:[%22react%22,%22react-dom%22]}})](https://bundlejs.com/?q=react-omni-provider@latest&config={%22esbuild%22:{%22external%22:[%22react%22,%22react-dom%22]}})
-[![Maintainability](https://api.codeclimate.com/v1/badges/e96c5a81106945e6bfed/maintainability)](https://codeclimate.com/github/morewings/react-omni-provider/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/e96c5a81106945e6bfed/test_coverage)](https://codeclimate.com/github/morewings/react-omni-provider/test_coverage)
+
 
 # React Omni Provider
 
