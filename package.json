@@ -71,7 +71,7 @@
     "commitlint": "19.5.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "9.10.0",
-    "eslint-config-prettier": "9.1.0",
+    "eslint-config-prettier": "9.1.2",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-prettier": "5.2.6",
     "eslint-plugin-react": "7.36.1",
